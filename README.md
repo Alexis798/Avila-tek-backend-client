@@ -1,8 +1,17 @@
-# React + Vite
+# Avila Tek Backend Client Side
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio es un complemento del repositorio del servidor y contiene las actividades complementarias que se requerian para la evaluacion como el Sign Out y la paginacion de usuarios.
 
-Currently, two official plugins are available:
+### Herramientas Usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para este proyecto se utilizo:
+
+- Vite
+- Javascript
+- Apollo Client
+- Graphql
+- React
+
+### Importante
+
+Al ser este proyecto un complemento del proyecto del servidor, el servidor debe estar activo y la url que apunta el documento App debe ser modificada a la direccion donde el servidor este activo.
