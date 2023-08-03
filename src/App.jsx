@@ -7,7 +7,7 @@ import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client"
 export const AvilaApp = () => {
 
     const client = new ApolloClient({
-      uri: "http://localhost:4000/graphql",
+      uri: "https://avila-tek-backend-service.onrender.com/graphql",
       cache: new InMemoryCache()
     })
 
